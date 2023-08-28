@@ -51,12 +51,13 @@ export async function DELETE(
       return new NextResponse("Unauthorized", { status: 405 });
     }
 
+    // TODO also delete image from cloudinary
+
     const billboard = await prismadb.billboard.delete({
       where: {
         id: params.billboardId,
       },
     });
-
     return NextResponse.json(billboard);
   } catch (error) {
     console.log("[BILLBOARD_DELETE]", error);
