@@ -15,10 +15,6 @@ const SetupPage = () => {
       onOpen();
     }
   }, [isOpen, onOpen]);
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Root Page
-    </main>
-  );
+  return null;
 };
 export default SetupPage;
