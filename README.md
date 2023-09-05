@@ -1,4 +1,5 @@
 DEPLOYED VERSION OF ADMIN PORTAL CAN BE FOUND HERE [https://ecomm-admin-sooty.vercel.app/](https://ecomm-admin-sooty.vercel.app/)
+
 DEPLOYED VERSION OF CLIENT SHOP CAN BE FOUND HERE [https://ecomm-client-one.vercel.app/](https://ecomm-client-one.vercel.app/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
